@@ -3,7 +3,7 @@ entries:
   open5gs:
   - apiVersion: v2
     appVersion: 2.4.11
-    created: "2023-05-07T19:18:20.655689+02:00"
+    created: "2023-05-27T09:54:47.856381+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -115,7 +115,7 @@ entries:
       category: apps
     apiVersion: v2
     appVersion: 3.2.6
-    created: "2023-05-07T19:18:20.656897+02:00"
+    created: "2023-05-27T09:54:47.857848+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,7 +123,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: ueransim gNodeB for 5G RAN simulation
-    digest: da07c4f294443b964fe59078c9872069687a46b230d8c3d7e396da548301b1ab
+    digest: 99f0e87e7ad5278780847b9e840634600abab7c9a08cb4ad2c43968acc8cb7ee
     home: https://github.com/aligungr/UERANSIM
     icon: https://github.com/aligungr/UERANSIM/raw/master/.github/logo.png
     keywords:
@@ -146,7 +146,7 @@ entries:
       category: apps
     apiVersion: v2
     appVersion: 3.2.6
-    created: "2023-05-07T19:18:20.657858+02:00"
+    created: "2023-05-27T09:54:47.860147+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -172,4 +172,4 @@ entries:
     urls:
     - https://pnivaggi.github.io/calisti-5g-charts/ueransim-ues-0.1.1.tgz
     version: 0.1.1
-generated: "2023-05-07T19:18:20.629291+02:00"
+generated: "2023-05-27T09:54:47.826497+02:00"

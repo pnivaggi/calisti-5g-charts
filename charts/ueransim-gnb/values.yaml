@@ -87,7 +87,8 @@ podSecurityContext:
 containerSecurityContext:
   enabled: false
 podLabels: {}
-podAnnotations: {}
+podAnnotations:
+  sidecar.istio.io/inject: "false"
 affinity: {}
 nodeSelector: {}
 tolerations: []
@@ -114,7 +115,8 @@ ues:
   containerSecurityContext:
     enabled: false
   podLabels: {}
-  podAnnotations: {}
+  podAnnotations:
+    sidecar.istio.io/inject: "false"
   affinity: {}
   nodeSelector: {}
   tolerations: []
